@@ -1,0 +1,37 @@
+body{
+    background-color:#f7f2f2
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    font-family:sans-serif;
+}
+.grid img{
+    border:2px solid #0000;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color:#ffffff;
+    width:310px;
+}
+.bodyimg{
+    position:relative;
+}
+a:link{
+color:white
+}
+a:visited{
+    color:white
+    }
+    .origami:hover{
+        transform:scale(1.2)
+    }
+    .bodyimg p{
+        color:white;
+        font-size:55px;
+        width:1600px;
+        top:40%;
+        left:45%;
+        transform:translate(-40%,-40%)
+    }
